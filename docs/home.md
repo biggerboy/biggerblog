@@ -31,7 +31,4 @@ footer: MIT Licensed | 公众号：BiggerBoy| Copyright © 2019-present 问北
 
 公众号：
 
-![微信搜索BiggerBoy ](./img/qcode.jpg)
 <img :src="$withBase('/img/qcode.jpg')" alt="微信搜索BiggerBoy">
-
-配置项的相关说明详见 [项目主页配置](https://vuepress-theme-hope.github.io/v2/zh/guide/layout/home/)。

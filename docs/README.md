@@ -43,8 +43,6 @@ footer: 公众号：BiggerBoy
 
 公众号：
 
-![微信搜索BiggerBoy ](./img/qcode.jpg)
-
 <img :src="$withBase('/img/qcode.jpg')" alt="微信搜索BiggerBoy">
 
 相关文档请见 [博客主页](home/)。
