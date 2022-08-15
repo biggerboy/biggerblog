@@ -2,4 +2,4 @@
 User-agent:*
 Disallow:
 
-Sitemap: https://vuepress-theme-hope-v2-demo.mrhope.site/docs/sitemap.xml
+Sitemap: https://vuepress-theme-hope-v2-demo.mrhope.site/biggerblog/sitemap.xml
