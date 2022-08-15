@@ -4,9 +4,9 @@ layout: Blog
 icon: home
 title: 博客主页
 heroImage: /logo.svg
-heroText: 你博客的名称
+heroText: 北哥博客
 heroFullScreen: true
-tagline: 你可以在这里放置你的口号与标语
+tagline: 专注Java技术分享，包括Java基础、多线程、<br>中间件、分布式、微服务、高并发、高可用等技术
 projects:
   - icon: project
     name: 项目名称
@@ -38,11 +38,14 @@ projects:
     desc: 自定义详细介绍
     link: https://你的自定义链接
 
-footer: 自定义你的页脚文字
+footer: 公众号：BiggerBoy
 ---
 
-这是一个博客主页的案例。
+公众号：
 
-要使用此布局，你应该在页面前端设置 `layout: Blog` 和 `home: true`。
+![微信搜索BiggerBoy ](./img/qcode.jpg)
 
-相关配置文档请见 [博客主页](https://vuepress-theme-hope.github.io/v2/zh/guide/blog/home/)。
+<img :src="$withBase('/img/qcode.jpg')" alt="微信搜索BiggerBoy">
+
+相关文档请见 [博客主页](home/)。
+

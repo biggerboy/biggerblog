@@ -3,43 +3,39 @@ import { sidebar } from "vuepress-theme-hope";
 export default sidebar([
   "/",
   "/home",
-  "/slide",
-  {
-    text: "如何使用",
-    icon: "creative",
-    prefix: "/guide/",
-    link: "/guide/",
-    children: "structure",
-  },
   {
     text: "文章",
     icon: "note",
     prefix: "/posts/",
     children: [
       {
-        text: "文章 1-4",
+        text: "Java",
         icon: "note",
         collapsable: true,
-        prefix: "article/",
-        children: ["article1", "article2", "article3", "article4"],
+        prefix: "java/",
+        children: [
+		{
+		    text: "java基础",
+		    icon: "note",
+		    collapsable: true,
+		    prefix: "java-base/",
+		    children: [],
+		},
+		{
+		    text: "JVM",
+		    icon: "note",
+		    collapsable: true,
+		    prefix: "JVM/",
+		    children: ["gc"],
+		},
+	],
       },
       {
-        text: "文章 5-12",
+        text: "分布式",
         icon: "note",
-        children: [
-          {
-            text: "文章 5-8",
-            icon: "note",
-            collapsable: true,
-            prefix: "article/",
-            children: ["article5", "article6", "article7", "article8"],
-          },
-          {
-            text: "文章 9-12",
-            icon: "note",
-            children: ["article9", "article10", "article11", "article12"],
-          },
-        ],
+        collapsable: true,
+        prefix: "distribute/",
+        children: ["Compensation-Mechanism"],
       },
     ],
   },

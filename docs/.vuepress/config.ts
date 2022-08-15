@@ -1,12 +1,13 @@
 import { defineUserConfig } from "vuepress";
+import { hopeTheme } from "vuepress-theme-hope";
 import theme from "./theme";
 
 export default defineUserConfig({
   lang: "zh-CN",
-  title: "主题演示",
-  description: "vuepress-theme-hope 的演示",
+  title: "biggerboy",
+  description: "北哥的技术博客",
 
-  base: "/biggerblog/",
+  base: "/docs/",
 
   theme,
 });
