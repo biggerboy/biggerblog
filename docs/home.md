@@ -2,7 +2,7 @@
 home: true
 icon: home
 title: 北哥博客
-heroImage: /logo.svg
+heroImage: /logo.png
 heroText: 北哥博客
 tagline: 专注Java技术分享，包括Java基础、多线程、中间件、分布式、微服务、高并发、高可用等技术
 actions:
