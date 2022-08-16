@@ -1,3 +1,9 @@
+---
+icon: java
+---
+
+
+
 # 搭建jenkins自动部署
 
 准备工作：Git、maven、jdk安装好

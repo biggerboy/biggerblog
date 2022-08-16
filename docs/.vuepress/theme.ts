@@ -3,18 +3,18 @@ import navbar from "./navbar";
 import sidebar from "./sidebar";
 
 export default hopeTheme({
-  hostname: "https://vuepress-theme-hope-v2-demo.mrhope.site",
+  hostname: "https://biggerboy.github.io/biggerblog/",
 
   author: {
     name: "北哥",
     url: "https://blog.csdn.net/ibigboy",
   },
 
-  iconAssets: "iconfont",
+  iconAssets: "//at.alicdn.com/t/c/font_3592344_o29n31nzngd.css",
 
   logo: "/logo.png",
 
-  repo: "vuepress-theme-hope/vuepress-theme-hope",
+  repo: "biggerboy",
 
   docsDir: "demo/src",
 

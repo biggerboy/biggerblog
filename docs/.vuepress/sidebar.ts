@@ -10,7 +10,7 @@ export default sidebar([
     children: [
       {
         text: "Java",
-        icon: "note",
+        icon: "java",
         collapsable: true,
         prefix: "java/",
         children: [
@@ -32,34 +32,34 @@ export default sidebar([
       },
       {
         text: "redis",
-        icon: "note",
+        icon: "redis",
         collapsable: true,
         prefix: "redis/",
         children: ["Java操作Redis--Jedis"],
       },
       {
         text: "mysql",
-        icon: "note",
+        icon: "mysql",
         collapsable: true,
         prefix: "mysql/",
         children: ["分库分表", "MySQL初始化密码修改", "解决MySQL启动时报错的一些问题"],
       },
       {
         text: "分布式",
-        icon: "note",
+        icon: "fenbushi",
         collapsable: true,
         prefix: "distribute/",
         children: ["Compensation-Mechanism"],
       },
       {
         text: "中间件",
-        icon: "note",
+        icon: "xinzhongjianjian",
         collapsable: true,
         prefix: "middleware/",
         children: [
           {
             text: "消息队列",
-            icon: "note",
+            icon: "MQ",
             collapsable: true,
             prefix: "mq/",
             children: ["why-mq"],
@@ -68,13 +68,13 @@ export default sidebar([
       },
       {
         text: "持续集成",
-        icon: "note",
+        icon: "huowudui",
         collapsable: true,
         prefix: "continuous-integration/",
         children: [
           {
             text: "jenkins",
-            icon: "note",
+            icon: "jenkins",
             collapsable: true,
             prefix: "jenkins/",
             children: ["搭建jenkins自动部署"]

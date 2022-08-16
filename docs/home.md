@@ -1,6 +1,6 @@
 ---
 home: true
-icon: home
+icon: blog
 title: 北哥博客
 heroImage: /logo.png
 heroText: 北哥博客
