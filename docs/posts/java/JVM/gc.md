@@ -1,3 +1,13 @@
+---
+date: 2022-08-15
+category:
+  - JVM
+tag:
+  - GC
+---
+
+
+
 # GC垃圾回收
 
 ## What is GC?

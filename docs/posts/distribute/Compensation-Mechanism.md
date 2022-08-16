@@ -1,5 +1,4 @@
 ---
-icon: edit
 date: 2022-08-15
 category:
   - 分布式
