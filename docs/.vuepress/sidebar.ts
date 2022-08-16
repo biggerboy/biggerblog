@@ -19,7 +19,7 @@ export default sidebar([
             icon: "note",
             collapsable: true,
             prefix: "java-base/",
-            children: [],
+            children: ["java值传递", "Java中真的是只有值传递么？"],
           },
           {
             text: "JVM",
@@ -29,6 +29,20 @@ export default sidebar([
             children: ["gc"],
           },
         ],
+      },
+      {
+        text: "redis",
+        icon: "note",
+        collapsable: true,
+        prefix: "redis/",
+        children: ["Java操作Redis--Jedis"],
+      },
+      {
+        text: "mysql",
+        icon: "note",
+        collapsable: true,
+        prefix: "mysql/",
+        children: ["分库分表", "MySQL初始化密码修改", "解决MySQL启动时报错的一些问题"],
       },
       {
         text: "分布式",
@@ -47,9 +61,24 @@ export default sidebar([
             text: "消息队列",
             icon: "note",
             collapsable: true,
-            prefix: "java-base/",
+            prefix: "mq/",
             children: ["why-mq"],
           },
+        ],
+      },
+      {
+        text: "持续集成",
+        icon: "note",
+        collapsable: true,
+        prefix: "continuous-integration/",
+        children: [
+          {
+            text: "jenkins",
+            icon: "note",
+            collapsable: true,
+            prefix: "jenkins/",
+            children: ["搭建jenkins自动部署"]
+          }
         ],
       },
     ],
