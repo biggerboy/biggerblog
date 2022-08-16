@@ -14,21 +14,21 @@ export default sidebar([
         collapsable: true,
         prefix: "java/",
         children: [
-		{
-		    text: "java基础",
-		    icon: "note",
-		    collapsable: true,
-		    prefix: "java-base/",
-		    children: [],
-		},
-		{
-		    text: "JVM",
-		    icon: "note",
-		    collapsable: true,
-		    prefix: "JVM/",
-		    children: ["gc"],
-		},
-	],
+          {
+            text: "java基础",
+            icon: "note",
+            collapsable: true,
+            prefix: "java-base/",
+            children: [],
+          },
+          {
+            text: "JVM",
+            icon: "note",
+            collapsable: true,
+            prefix: "JVM/",
+            children: ["gc"],
+          },
+        ],
       },
       {
         text: "分布式",
@@ -36,6 +36,21 @@ export default sidebar([
         collapsable: true,
         prefix: "distribute/",
         children: ["Compensation-Mechanism"],
+      },
+      {
+        text: "中间件",
+        icon: "note",
+        collapsable: true,
+        prefix: "middleware/",
+        children: [
+          {
+            text: "消息队列",
+            icon: "note",
+            collapsable: true,
+            prefix: "java-base/",
+            children: ["why-mq"],
+          },
+        ],
       },
     ],
   },
