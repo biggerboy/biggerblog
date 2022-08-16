@@ -7,9 +7,9 @@ export default defineUserConfig({
   title: "biggerboy",
   description: "北哥的技术博客",
 
-  // base: "/",
+  base: "/",
   //打包时放开这个
-  base: "/docs/",
+  // base: "/biggerblog/",
 
   theme,
 });
