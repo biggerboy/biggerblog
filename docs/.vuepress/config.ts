@@ -9,7 +9,7 @@ export default defineUserConfig({
 
   // base: "/",
   //打包时放开这个
-  base: "/biggerblog/",
+  base: "/docs/",
 
   theme,
 });
