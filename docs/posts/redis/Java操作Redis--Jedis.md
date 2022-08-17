@@ -1,3 +1,5 @@
+# Java操作Redis--Jedis
+
 这一节看一下Java版本的redis客户端工具来操作redis。
 jedis封装了丰富的api来操作redis，可以说命令行界面的命令它都有。
 开始在 Java 中使用 Redis 前， 我们需要确保已经[安装](https://www.cnblogs.com/ibigboy/p/11143677.html)了 redis 服务，且你的机器上能正常使用 Java。

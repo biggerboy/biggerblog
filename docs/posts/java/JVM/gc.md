@@ -89,3 +89,11 @@ JVM经历了不断的迭代，有不少的垃圾收集器被设计出来，为�
 
 
 ###		6、ZGC收集器
+
+
+
+
+
+关注公众号@BiggerBoy，让我们一起成长吧！
+
+<img :src="$withBase('/img/qcode.jpg')" alt="微信搜索BiggerBoy">

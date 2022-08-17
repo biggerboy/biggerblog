@@ -1,3 +1,5 @@
+# CentOs防火墙问题
+
 今天在虚拟机的Linux系统（centos7）里安装Redis，准备学习一下布隆过滤器呢，安装完后使用Windows本机访问，Telnet不通能够ping通。于是就去看防火墙，是否关闭或是否把6379端口放开了。
 
 于是就往这方面查问题，发现没有iptables文件，然后我启动iptables服务，报错。

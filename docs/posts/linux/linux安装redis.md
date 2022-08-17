@@ -1,6 +1,6 @@
 
 
-# Linux之Redis
+# Linux之Redis安装
 
 ## linux安装redis
 
