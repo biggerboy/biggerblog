@@ -32,7 +32,7 @@ redis是c语言编写的，需要用gcc编译，若已安装请忽略。
 
 报错：
 
-![image-20191211160555693](C:\Users\zyp\AppData\Roaming\Typora\typora-user-images\image-20191211160555693.png)
+
 
 解决方案：
 执行命令：make MALLOC=libc 

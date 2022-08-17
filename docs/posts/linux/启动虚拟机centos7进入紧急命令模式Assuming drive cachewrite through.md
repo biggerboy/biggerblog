@@ -2,7 +2,7 @@
 
 启动centos7后进入如下页面，提示如下图
 
-![image-20191211093130275](C:\Users\zyp\AppData\Roaming\Typora\typora-user-images\image-20191211093130275.png)
+
 
 ```bash
 Assuming drive cache:write through
@@ -18,7 +18,7 @@ You might want to save "/run/initramfs/rdsosreport.txt" to a USB stick or /boot 
 
 键入`journalctl`
 
-![image-20191211094754624](C:\Users\zyp\AppData\Roaming\Typora\typora-user-images\image-20191211094754624.png)
+
 
 Failed to switch root:Specified switch root path /sysroot does not seem to be an OS tree.os-release fil
 

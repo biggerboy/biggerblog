@@ -30,7 +30,7 @@ export PATH=${PATH}:${MAVEN_HOME}/bin
 
 然后执行`mvn -v`看是否生效。如下表示已配置成功。
 
-![image-20191212141016680](C:\Users\zyp\AppData\Roaming\Typora\typora-user-images\image-20191212141016680.png)
+
 
 ## 2、配置maven仓库
 
