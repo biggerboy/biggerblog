@@ -16,5 +16,3 @@ icon: java
 
 然后选择推荐安装插件，就进入到下面的页面。
 
-![image-20191212164724348](C:\Users\zyp\AppData\Roaming\Typora\typora-user-images\image-20191212164724348.png)
-
