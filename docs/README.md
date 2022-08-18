@@ -1,49 +1,34 @@
 ---
 home: true
-layout: Blog
-icon: home
-title: 博客主页
+icon: java
+title: 北哥博客(Java学习地)
 heroImage: /logo.png
 heroText: 北哥博客
-heroFullScreen: true
-tagline: 专注Java技术分享，包括Java基础、多线程、<br>中间件、分布式、微服务、高并发、高可用等技术
-projects:
-  - icon: project
-    name: 项目名称
-    desc: 项目详细描述
-    link: https://你的项目链接
+tagline: 专注Java技术分享，包括Java基础、多线程、中间件、分布式、微服务、高并发、高可用等技术
+actions:
+- text: 文章 📚
+  link: /posts/
+  type: primary
 
-  - icon: link
-    name: 链接名称
-    desc: 链接详细描述
-    link: https://链接地址
+- text: 博客主页 🏠
+  link: /
 
-  - icon: book
-    name: 书籍名称
-    desc: 书籍详细描述
-    link: https://你的书籍链接
+features:
+- title: CSDN
+  icon: csdn
+  details: 我的CSDN主页，目前有三千多关注，发一些问题解决的博客，技术文章等
+  link: https://blog.csdn.net/ibigboy
 
-  - icon: article
-    name: 文章名称
-    desc: 文章详细描述
-    link: https://你的文章链接
+- title: 博客园
+  icon: bokeyuan
+  details: 我的博客园主页，最近维护频率较低，主要发一些技术文章等
+  link: https://www.cnblogs.com/ibigboy/
 
-  - icon: friend
-    name: 伙伴名称
-    desc: 伙伴详细介绍
-    link: https://你的伙伴链接
 
-  - icon: /logo.svg
-    name: 自定义项目
-    desc: 自定义详细介绍
-    link: https://你的自定义链接
-
-footer: 公众号：BiggerBoy
+copyright: true
+footer: MIT Licensed | 公众号：BiggerBoy| Copyright © 2019-present 问北
 ---
 
-公众号：
+我也维护了一个个人公众号，主要也是做技术，感兴趣的可以关注下
 
 <img :src="$withBase('/img/qcode.jpg')" alt="微信搜索BiggerBoy">
-
-相关文档请见 [博客主页](home/)。
-

@@ -1,5 +1,5 @@
 ---
-icon: java
+icon: jenkins
 ---
 
 

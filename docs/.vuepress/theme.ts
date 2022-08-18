@@ -9,8 +9,8 @@ export default hopeTheme({
     name: "北哥",
     url: "https://blog.csdn.net/ibigboy",
   },
-
-  iconAssets: "//at.alicdn.com/t/c/font_3592344_o29n31nzngd.css",
+  //在这里复制出来css连接https://www.iconfont.cn/manage/index?manage_type=myprojects&projectId=3592344
+  iconAssets: "//at.alicdn.com/t/c/font_3592344_oidgzjtjkr.css",
 
   logo: "/logo.png",
 

@@ -2,7 +2,7 @@ import {sidebar} from "vuepress-theme-hope";
 
 export default sidebar([
     "/",
-    "/home",
+    // "/home",
     {
         text: "文章",
         icon: "note",
