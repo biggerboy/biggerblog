@@ -1,5 +1,6 @@
 import {defineUserConfig} from "vuepress";
 import {searchPlugin} from "@vuepress/plugin-search";
+import {photoSwipePlugin} from "vuepress-plugin-photo-swipe";
 import theme from "./theme";
 
 export default defineUserConfig({
@@ -16,5 +17,8 @@ export default defineUserConfig({
         searchPlugin({
             // 你的选项
         }),
+        photoSwipePlugin ({
+            // photoSwipe: true,
+        })
     ],
 });
