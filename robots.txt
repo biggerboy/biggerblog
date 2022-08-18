@@ -2,4 +2,4 @@
 User-agent:*
 Disallow:
 
-Sitemap: https://biggerboy.github.io/biggerblog/biggerblog/biggerblog/sitemap.xml
+Sitemap: https://biggerboy.github.io/biggerblog/biggerblog/sitemap.xml
