@@ -3,7 +3,7 @@ import navbar from "./navbar";
 import sidebar from "./sidebar";
 
 export default hopeTheme({
-  hostname: "https://biggerboy.github.io/biggerblog/biggerblog",
+  hostname: "https://biggerboy.github.io/biggerblog",
 
   author: {
     name: "北哥",
@@ -34,8 +34,8 @@ export default hopeTheme({
     description: "Java coder",
     intro: "/intro.html",
     medias: {
-      Gitee: "https://example.com",
-      GitHub: "https://github.com/biggerboy",
+      Gitee: "https://gitee.com/it-wenbei",
+      GitHub: "https://github.com/biggerboy/biggerblog",
       Zhihu: "https://www.zhihu.com/people/wei-he-bu-shi-meng",
     },
   },
