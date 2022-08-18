@@ -3,7 +3,7 @@ import navbar from "./navbar";
 import sidebar from "./sidebar";
 
 export default hopeTheme({
-  hostname: "https://biggerboy.github.io/biggerblog/",
+  hostname: "https://biggerboy.github.io/biggerblog/biggerblog",
 
   author: {
     name: "北哥",
