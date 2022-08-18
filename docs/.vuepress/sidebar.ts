@@ -42,7 +42,7 @@ export default sidebar([
                 icon: "mysql",
                 collapsable: true,
                 prefix: "mysql/",
-                children: ["分库分表"],
+                children: ["分库分表","mysql-index-data-structure"],
             },
             {
                 text: "分布式",
