@@ -28,6 +28,7 @@ features:
 copyright: true
 footer: MIT Licensed | 公众号：BiggerBoy| Copyright © 2019-present 问北
 ---
+最佳阅读地址：[github pages](https://biggerboy.github.io/biggerblog)
 
 我也维护了一个个人公众号，主要也是做技术，感兴趣的可以关注下
 
