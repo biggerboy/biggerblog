@@ -42,7 +42,7 @@ export default sidebar([
                 icon: "mysql",
                 collapsable: true,
                 prefix: "mysql/",
-                children: ["mysql-index-data-structure","sharding-jdbc-in-action"],
+                children: ["mysql-index-data-structure","sharding-jdbc-in-action","mysql-Q&A"],
             },
             {
                 text: "分布式",
