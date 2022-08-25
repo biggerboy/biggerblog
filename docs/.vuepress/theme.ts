@@ -18,6 +18,8 @@ export default hopeTheme({
 
     docsDir: "demo/src",
 
+    // darkmode: "auto",
+
     // navbar
     navbar: navbar,
 
@@ -47,6 +49,13 @@ export default hopeTheme({
     },
 
     plugins: {
+        photoSwipe: {
+            selector: '.theme-hope-content>img',
+            options:{
+                loop: true
+            },
+            delay: 500,
+        },
         blog: {
             autoExcerpt: false,
         },
